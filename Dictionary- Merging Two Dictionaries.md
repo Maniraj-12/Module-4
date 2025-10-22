@@ -11,26 +11,21 @@ To write a Python program that merges **two dictionaries** and combines their ke
 
 ## 🧾 Program
 ```
-dict1 = {
-    "name": "Alice",
-    "age": 25,
-    "city": "New York"
-}
+dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
 
-dict2 = {
-    "age": 30,
-    "country": "USA"
-}
+def merge(dict1, dict2):
+    res = {**dict1, **dict2}
+    return res
 
-def merge(d1, d2):
-    merged_dict = {**d1, **d2}  
-    return merged_dict
+dict3 = merge(dict1, dict2)
+print(dict3)
 
-
-result = merge(dict1, dict2)
-print(result)
 ```
 
 ## Output
+<img width="519" height="118" alt="image" src="https://github.com/user-attachments/assets/bab5cedb-bfff-4d1b-92e3-d04168c3db32" />
+
 
 ## Result
+The Python program that merges two dictionaries and combines their key-value pairs is executed successfully.
