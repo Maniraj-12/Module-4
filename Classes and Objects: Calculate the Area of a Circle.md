@@ -12,15 +12,20 @@ To write a Python program that calculates the **area of a circle** based on the 
 
 ## 🧾 Program
 ```
+import math
 class cse:
-    def mech():
-        import math
-        a=int(input())
-        c=math.pi*(a**2)
-        print(f"Area of circle: {c:.2f}")
-    slot()
+    def _init_(self, r):
+        self.area = math.pi * (r ** 2) 
+    def mech(self):
+        print("Area of circle:", round(self.area, 2))
+r = float(input())
+res = cse(r)  
+res.mech()
 ```
 
 ## Output
+<img width="516" height="175" alt="image" src="https://github.com/user-attachments/assets/4ce276da-f841-4708-b8b1-8a7faddb63b9" />
+
 
 ## Result
+The Python program that calculates the area of a circle based on the radius provided by the user. This program uses a class named cse and a method mech to perform the calculation is executed successfully.
