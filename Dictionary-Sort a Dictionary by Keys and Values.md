@@ -55,5 +55,6 @@ dictionary()
 
 ## Result
 The Python program that sorts a dictionary's:
+
    1.Keys in alphabetical order
    2.Values in alphabetical order is executed successfully.
